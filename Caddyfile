@@ -2,8 +2,8 @@
 	debug
 }
 
-http://localhost:8080/uploads/ {
-	route {
+http://localhost:8080 {
+  route /uploads/* {
 		resumable_uploads
 	}
 }
